@@ -30,15 +30,14 @@ main {
 
 
 .form {
-  /* display: grid;
-  grid-template: 40px 40px / 1fr 1fr;
-  gap: 17px; */
+  width: 460px; 
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
   margin-bottom: 50px;
-  gap: 20px;
+  gap: 40px;
+
 }
 
 .form-input {
@@ -57,4 +56,6 @@ main {
   border: none;
   cursor: pointer;
   justify-content: center;
+  width: max-content;
+  padding:10px 100px 10px;
 }
